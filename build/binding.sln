@@ -1,0 +1,54 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(Desktop)", "..\Users\chimi\Desktop", "{1FD1EB3A-D29D-911E-7F91-98E079E6292E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(NodeCProj)", "..\Users\chimi\Desktop\NodeCProj", "{9BE83F3B-96BA-0206-2D52-8F5D2F71552F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(Users)", "..\Users", "{83FD2216-DE8C-3729-D4EA-3618B14F3F2D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(chimi)", "..\Users\chimi", "{10C8EFDE-3EC7-9EEE-551C-C46DC2ACA5B1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(node-addon-api)", "..\Users\chimi\Desktop\NodeCProj\timer-addon\node_modules\node-addon-api", "{30FB2D65-4492-6E36-6DB6-759C3453C24C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(node_modules)", "..\Users\chimi\Desktop\NodeCProj\timer-addon\node_modules", "{10DA653F-4E99-CF26-F10C-A9E344D04DCB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(src)", "..\Users\chimi\Desktop\NodeCProj\timer-addon\node_modules\node-addon-api\src", "{18649100-0CA6-AFD9-1D6C-89E0FFAA98FA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(timer-addon)", "..\Users\chimi\Desktop\NodeCProj\timer-addon", "{BBF20D24-B9EE-CAFB-2331-5421EDE0F9A3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "nothing", "..\node_modules\node-addon-api\src\nothing.vcxproj", "{9C3E2E95-5252-4036-E1C2-A8B713DA02EA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "timer", "timer.vcxproj", "{77581E93-FA4E-2752-2B3E-EDCDFBC6B420}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9C3E2E95-5252-4036-E1C2-A8B713DA02EA} = {9C3E2E95-5252-4036-E1C2-A8B713DA02EA}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77581E93-FA4E-2752-2B3E-EDCDFBC6B420}.Debug|x64.ActiveCfg = Debug|x64
+		{77581E93-FA4E-2752-2B3E-EDCDFBC6B420}.Debug|x64.Build.0 = Debug|x64
+		{77581E93-FA4E-2752-2B3E-EDCDFBC6B420}.Release|x64.ActiveCfg = Release|x64
+		{77581E93-FA4E-2752-2B3E-EDCDFBC6B420}.Release|x64.Build.0 = Release|x64
+		{9C3E2E95-5252-4036-E1C2-A8B713DA02EA}.Debug|x64.ActiveCfg = Debug|x64
+		{9C3E2E95-5252-4036-E1C2-A8B713DA02EA}.Debug|x64.Build.0 = Debug|x64
+		{9C3E2E95-5252-4036-E1C2-A8B713DA02EA}.Release|x64.ActiveCfg = Release|x64
+		{9C3E2E95-5252-4036-E1C2-A8B713DA02EA}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9BE83F3B-96BA-0206-2D52-8F5D2F71552F} = {1FD1EB3A-D29D-911E-7F91-98E079E6292E}
+		{BBF20D24-B9EE-CAFB-2331-5421EDE0F9A3} = {9BE83F3B-96BA-0206-2D52-8F5D2F71552F}
+		{10C8EFDE-3EC7-9EEE-551C-C46DC2ACA5B1} = {83FD2216-DE8C-3729-D4EA-3618B14F3F2D}
+		{1FD1EB3A-D29D-911E-7F91-98E079E6292E} = {10C8EFDE-3EC7-9EEE-551C-C46DC2ACA5B1}
+		{18649100-0CA6-AFD9-1D6C-89E0FFAA98FA} = {30FB2D65-4492-6E36-6DB6-759C3453C24C}
+		{30FB2D65-4492-6E36-6DB6-759C3453C24C} = {10DA653F-4E99-CF26-F10C-A9E344D04DCB}
+		{9C3E2E95-5252-4036-E1C2-A8B713DA02EA} = {18649100-0CA6-AFD9-1D6C-89E0FFAA98FA}
+		{10DA653F-4E99-CF26-F10C-A9E344D04DCB} = {BBF20D24-B9EE-CAFB-2331-5421EDE0F9A3}
+	EndGlobalSection
+EndGlobal
