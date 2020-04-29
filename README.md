@@ -1,6 +1,6 @@
 # nanosecond-timer
 
-A simple C++ addon to monitor execution timing.
+A simple C++ nodejs addon to monitor execution timing.
 
 ### Installing
 
